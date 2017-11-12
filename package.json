@@ -10,14 +10,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git://github.com/ballantyne/node-paperclip-lame.git"
+    "url": "git://github.com/ballantyne/node-paperclip-audio.git"
   },
   "dependencies": {
-    "klass": "^1.4.1",
-    "lamejs": "^1.2.0",
-    "node-id3": "^0.1.0",
-    "node-lame": "^1.0.4",
-    "wav": "^1.0.1"
+    "node-paperclip-lame": "^1.0.0"
   },
   "devDependencies": {
     "mocha": "^4.0.1"
