@@ -39,7 +39,7 @@ Track.plugin(Paperclip.plugins.mongoose, {
       has_attached_file: 'song', 
       styles: [
         { original: true },
-        { normal:   { extension: 'mp3', bitrate: 192,  task: require('node-paperclip-lame') } }
+        { normal:   { extension: 'mp3', bitrate: 192,  task: require('node-paperclip-audio') } }
       ],
       prefix:      '{{class_name}}/{{plural}}/{{document._id}}',
       name_format: '{{style}}/{{document.trackNumber}}-{{parameterize}}.{{extension}}',
